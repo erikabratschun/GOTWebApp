@@ -1,0 +1,302 @@
+/* style.css
+ * This file provides css styles.
+ */
+      
+ @import "lesshat";
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400+700);
+body,html {
+	background-color: #3b4b54; width : 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #00aed1;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.newappIcon {
+	padding-top: 10%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	max-width:200px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.leftHalf {
+	float: left;
+	background-color: #26343f;
+	width: 45%;
+	height: 100%;
+}
+
+.rightHalf {
+	float: right;
+	width: 55%;
+	background-color: #313f4a;
+	height: 100%;
+	overflow:auto;
+}
+
+.blue {
+	color: #00aed1;
+}
+
+
+table {
+	table-layout: fixed;
+	width: 800px;
+	margin: 0 auto;
+	word-wrap: break-word;
+	padding-top:10%;
+}
+
+th {
+	border-bottom: 1px solid #000;
+}
+
+th, td {
+	text-align: left;
+	padding: 2px 20px;
+}
+
+.env-var {
+	text-align: right;
+	border-right: 1px solid #000;
+	width: 30%;
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+        
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('img/a02.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }
+/* jssor slider thumbnail navigator skin 11 css *//*.jssort11 .p            (normal).jssort11 .p:hover      (normal mouseover).jssort11 .pav          (active).jssort11 .pav:hover    (active mouseover).jssort11 .pdn          (mousedown)*/.jssort11 .p {    position: absolute;    top: 0;    left: 0;    width: 200px;    height: 69px;    background: #181818;}.jssort11 .tp {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort11 .i, .jssort11 .pav:hover .i {    position: absolute;    top: 3px;    left: 3px;    width: 60px;    height: 30px;    border: white 1px dashed;}* html .jssort11 .i {    width /**/: 62px;    height /**/: 32px;}.jssort11 .pav .i {    border: white 1px solid;}.jssort11 .t, .jssort11 .pav:hover .t {    position: absolute;    top: 3px;    left: 68px;    width: 129px;    height: 32px;    line-height: 32px;    text-align: center;    color: #fc9835;    font-size: 13px;    font-weight: 700;}.jssort11 .pav .t, .jssort11 .p:hover .t {    color: #fff;}.jssort11 .c, .jssort11 .pav:hover .c {    position: absolute;    top: 38px;    left: 3px;    width: 194px;    height: 32px;    line-height: 32px;    color: #fff;    font-size: 11px;    font-weight: 400;    overflow: hidden;}.jssort11 .pav .c, .jssort11 .p:hover .c {    color: #fc9835;}.jssort11 .t, .jssort11 .c {    transition: color 2s;    -moz-transition: color 2s;    -webkit-transition: color 2s;    -o-transition: color 2s;}.jssort11 .p:hover .t, .jssort11 .pav:hover .t, .jssort11 .p:hover .c, .jssort11 .pav:hover .c {    transition: none;    -moz-transition: none;    -webkit-transition: none;    -o-transition: none;}.jssort11 .p:hover, .jssort11 .pav:hover {    background: #333;}.jssort11 .pav, .jssort11 .p.pdn {    background: #462300;}
+    
+
+
+        a:link {
+            color: whitesmoke;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color: whitesmoke;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+ 
+
+
+#chart {
+  width: 650px;
+  height: 300px;
+  margin: 30px auto 0;
+  display: block;
+  
+  #numbers {
+    width: 50px; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    
+    li {
+      text-align: right;
+      padding-right: 1em;
+      list-style: none;
+      height: 29px;
+      border-bottom: 1px solid #444;
+      position: relative;
+      bottom: 30px;
+      
+      &:last-child {
+        height: 30px;
+      }
+      
+      span {
+        color: #eee;
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+      }
+    }
+  }
+  
+  #bars {
+    display: inline-block;
+    background: rgba(0,0,0,0.2);
+    width: 600px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 0 1px #444;
+
+    li {
+      display: table-cell;
+      width: 100px;
+      height: 300px;
+      margin: 0;
+      text-align: center;
+      position: relative;
+      
+      .bar {
+        display: block;
+        width: 70px;
+        margin-left: 15px;
+        background: #49E;
+        position: absolute;
+        bottom: 0;
+        
+        &:hover {
+          background: #5AE;
+          cursor: pointer;
+          
+          &:before {
+            color: white;
+            content: attr(data-percentage) '%';
+            position:relative;
+            bottom: 20px;
+          }
+        }
+      }
+
+      span {
+        color: #eee;
+        width: 100%;
+        position: absolute;
+        bottom: -2em;
+        left: 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+        }
+        
+#contenitore{
+position: relative;
+width: 800px;
+margin: 20px auto;
+text-align:center;
+overflow:hidden;
+font: 14px 'Trebuchet MS', sans serif;
+}
+.left{
+float:left;
+width:48%;
+}
+#grafico{
+position:relative;
+height:300px;
+border-left:2px solid #000000;
+border-bottom: 2px solid #000000;
+width:100%;
+margin-top:20px;
+}
+.riga{
+position:absolute;
+left:0;
+height: 1px;
+background-color:gray;
+width: 100%;
+}
+.riga div{
+float:left;
+margin: -8px 0 0 -40px;
+}
+.canc{
+clear:both;
+}
+table{
+width:60%;
+background-color: white;
+color: #000;
+margin: 1em auto;
+}
+table caption{
+background-color: #D8EED8;
+color: #004156;
+text-align: left;
+}
+table tr:nth-child(2n){
+background-color: #D8EED8;
+}
+table tr:nth-child(2n+1){
+background-color: #BFDFFF;
+}
+table td{
+text-align:center;
+border-bottom: 1px solid #CDCDCD;
+padding: 6px;
+}
+.column{
+position:absolute;
+width: 16%;
+bottom: 0;
+background-color: #003366;
+margin-left:5%;
+}
+div.button {
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+    background-color:#003366;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    padding: 8px;
+    color: #E1E2CF;
+    cursor: pointer;
+}
+.column div{
+margin-top:-20px;
+height:20px;
+}
+

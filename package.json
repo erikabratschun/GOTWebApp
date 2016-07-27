@@ -1,0 +1,17 @@
+{
+	"name": "GameOfThrones_NodeJS_App",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+                "ibm_db" : "~0.0.1",
+		"express": "4.13.x",
+		"cfenv": "1.0.x"
+	},
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	} 
+}
